@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TVT ADB Assistant",
+  "version": "1.0",
+  "description": "Automatically deletes a specified div class on web pages.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.tvtropes.org/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
